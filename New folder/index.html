@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style>
+	
+	button{
+		width:50px; 
+		height: 60px;
+		padding: 2px;
+	}
+	button#result{
+		width: 103px;
+	}
+	input#ndisplay {
+		width: 95%;
+	}
+
+	</style>
+	
+</head>
+<body>
+	<form>
+		<input type="number" placeholder="0" id="ndisplay">
+	</form>
+	<div id="buttons">
+		<button id="sum" onclick="doAdd()"> + </button>
+		<button id="Difference" onclick="doSubtract()"> - </button>
+		<button id="divided" onclick="doDivide()"> / </button>
+		<button id="qoutient" onclick="doMupltiply()"> * </button>
+		<button id="Modulo" onclick="doModulo()"> % </button>
+		<br>
+		<button id="Exponent" onclick="doExponent()">exp</button>
+		<button id="Erase" onclick="doErase()"><</button>
+		<button id="Clear" onclick="doClear()">C</button>
+		<button id="result" onclick="doEqual()">=</button>
+		<br>
+		<button  id= "number1" type="button" onclick="inputnum(this)">1</button>
+		<button  id= "number1" type="button"  onclick="inputnum(this)">2</button>
+		<button  id= "number1" type="button"  onclick="inputnum(this)">3</button>
+		<button  id= "number1" type="button"  onclick="inputnum(this)">4</button>
+		<button id= "number" type="button"  onclick="inputnum(this)">0</button>
+		<br>
+		<button  id= "number1"  type="button" onclick="inputnum(this)">5</button>
+		<button  id= "number1" type="button"  onclick="inputnum(this)">6</button>
+		<button  id= "number1" type="button"  onclick="inputnum(this)">7</button>
+		<button  id= "number1" type="button"  onclick="inputnum(this)">8</button>
+		<button  id= "number1" type="button"  onclick="inputnum(this)">9</button>
+		
+
+
+
+	
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
